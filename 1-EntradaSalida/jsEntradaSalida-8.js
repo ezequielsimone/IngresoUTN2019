@@ -8,7 +8,7 @@ function SacarResto()
 
     var dos = document.getElementById("numeroDivisor").value;
 
-    var total = parseInt (uno) / parseInt (dos);
+    var total = parseInt (uno) % parseInt (dos);
 
     alert("El resto es " + total);
 }
