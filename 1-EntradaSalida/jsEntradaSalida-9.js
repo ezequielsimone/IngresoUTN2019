@@ -22,9 +22,9 @@ function MostrarAumento()
     aumento = sueldo * 10 / 100;
     resultado = sueldo + aumento;
     
-    document.getElementById("sueldo").value = resultado;
+    document.getElementById("resultado").value = resultado;
 
-    alert("El aumento es " aumento);
+    alert("El aumento es " + aumento);
 
 	
 }
