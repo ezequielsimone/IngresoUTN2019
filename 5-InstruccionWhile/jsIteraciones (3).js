@@ -10,6 +10,6 @@ while (clave != "utn750")
 
     }
 
-alert("clave correcta")
+alert("clave correcta");
 
 }//FIN DE LA FUNCIÓN
